@@ -1,5 +1,6 @@
-DVWA Vulnerability Assessment 
-This project is a hands-on penetration testing exercise conducted using Damn Vulnerable Web Application (DVWA) to explore and exploit the OWASP Top 10 vulnerabilities. It aims to simulate real-world attacks and understand exploitation techniques, their impact, and recommended remediations.
+🔐 DVWA Vulnerability Assessment
+
+This project is a hands-on penetration testing exercise conducted using Damn Vulnerable Web Application (DVWA) to explore and exploit the OWASP Top 10 vulnerabilities. It aims to simulate real-world attacks and understand exploitat techniques, their impact, and recommended remediations.
 
 📌 Project Objectives
 Identify and exploit common web application vulnerabilities.
