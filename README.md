@@ -68,9 +68,7 @@ Observed plaintext credentials and session tokens.
 Inspected cookies and insecure HTTP communications.
 
 6. Security Misconfiguration
-Enabled directory listing exposed sensitive files.
-
-Reproduced at: http://localhost/DVWA/testfolder/
+Enabled directory listing exposed sensitive files
 
 Remediation: Disable listing with Options -Indexes in Apache config.
 
