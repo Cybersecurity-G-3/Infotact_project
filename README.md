@@ -3,6 +3,7 @@
 This project is a hands-on penetration testing exercise conducted using Damn Vulnerable Web Application (DVWA) to explore and exploit the OWASP Top 10 vulnerabilities. It aims to simulate real-world attacks and understand exploitat techniques, their impact, and recommended remediations.
 
 📌 Project Objectives
+
 Identify and exploit common web application vulnerabilities.
 
 Use tools like Burp Suite, Sqlmap, and Kali Linux.
@@ -12,6 +13,7 @@ Document the vulnerabilities with payloads and remediation strategies.
 Strengthen understanding of offensive and defensive web security techniques.
 
 🛠️ Tools Used
+
 Kali Linux
 
 DVWA (Damn Vulnerable Web Application)
@@ -27,6 +29,7 @@ Metasploit wordlists
 Browser Developer Tools
 
 ⚙️ Setup Instructions
+
 Install Kali Linux in a VM (e.g., VMware or VirtualBox).
 
 Install and configure DVWA on localhost.
@@ -38,6 +41,7 @@ Set security level as needed from the DVWA security settings.
 Launch tools (Burp Suite, Sqlmap, etc.) and begin assessments.
 
 🔍 Vulnerabilities Explored
+
 1. SQL Injection (SQLi)
 Injected payloads to bypass authentication and extract data.
 
@@ -73,6 +77,7 @@ Enabled directory listing exposed sensitive files
 Remediation: Disable listing with Options -Indexes in Apache config.
 
 📋 OWASP Top 10 Mapped
+
 Vulnerability	Demonstrated
 Broken Access Control	✅
 Cryptographic Failures (Sensitive Data Exposure)	✅
@@ -86,6 +91,7 @@ Security Logging and Monitoring Failures	⚠️ Not monitored
 Server-Side Request Forgery (SSRF)	❌ Not tested
 
 🧠 Key Learnings
+
 Gained hands-on experience in offensive security.
 
 Understood attacker mindset and exploitation patterns.
@@ -95,5 +101,6 @@ Learned how security controls change behavior across different levels.
 Developed defensive strategies and secure coding recommendations.
 
 ✅ Conclusion
+
 This project provided a complete walkthrough of how attackers exploit real-world vulnerabilities and how developers/security professionals can mitigate them. By working through each vulnerability in DVWA, I enhanced my practical skills in penetration testing, web security, and ethical hacking.
 
